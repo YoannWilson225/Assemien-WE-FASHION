@@ -7,7 +7,7 @@
               </div>
           </div>
           <div class="col-lg-3">
-              <h4>Shopping &amp; Categories</h4>
+              <h4>Infaormtions</h4>
               <ul>
                   <li><a href="#">Mentions Légales</a></li>
                   <li><a href="#">Presse</a></li>
@@ -34,8 +34,8 @@
           </div>
           <div class="col-lg-12">
               <div class="under-footer">
-                  <p>Copyright © 2022 WE FASHION., Ltd. All Rights Reserved. 
-                  
+                  <p>Copyright © 2022 WE FASHION., Ltd. All Rights Reserved.
+
                   <br>Design By: <a href="https://github.com/YoannWilson225" target="_parent">Yoann Wilson</a></p>
                   <ul>
                       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
