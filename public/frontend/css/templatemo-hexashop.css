@@ -1,0 +1,515 @@
+/*
+
+TemplateMo 571 Hexashop
+
+https://templatemo.com/tm-571-hexashop
+
+*/
+
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+01. font & reset css
+02. reset
+03. global styles
+04. header
+05. banner
+06. features
+07. testimonials
+08. contact
+09. footer
+10. preloader
+11. search
+12. portfolio
+
+--------------------------------------------- */
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+/* 
+---------------------------------------------
+global styles
+--------------------------------------------- 
+*/
+
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+}
+
+.main-border-button a {
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 25px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+.main-border-button a:hover {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
+.main-white-button a {
+  font-size: 13px;
+  color: #2a2a2a;
+  background-color: #fff;
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.main-white-button a:hover {
+  opacity: 0.9;
+}
+
+.main-text-button a {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.main-text-button a:hover {
+  opacity: 0.9;
+}
+
+.section-heading h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.section-heading span {
+  font-size: 14px;
+  color: #a1a1a1;
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+
+/* 
+---------------------------------------------
+Social
+--------------------------------------------- 
+*/
+
+#social {
+  margin-top: 90px;
+  padding-bottom: 90px;
+  border-bottom: 3px dotted #eee;
+}
+
+#social .col-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#social .images {
+  margin-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#social .thumb {
+  position: relative;
+}
+
+#social .thumb .icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.85);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+#social .thumb:hover .icon {
+  opacity: 1;
+  visibility: visible;
+}
+
+#social .thumb .icon h6 {
+  color: #fff;
+  position: absolute;
+  font-size: 14px;
+  bottom: 40px;
+  font-weight: 400;
+  left: 15px;
+}
+
+#social .thumb .icon i {
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+#social .thumb img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+footer
+--------------------------------------------- 
+*/
+
+footer {
+  padding: 60px 0px 30px 0px;
+  background-color: #2a2a2a;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  font-size: 14px;
+  color: #fff;
+  transition: all .3s;
+}
+
+footer ul li a:hover {
+  color: #aaa;
+}
+
+footer h4 {
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer .under-footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+  border-top: 1px solid rgba(250,250,250,0.3);
+}
+
+footer .under-footer ul {
+  margin-top: 20px;
+}
+
+footer .under-footer ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+footer .under-footer ul li a {
+  font-size: 22px;
+}
+
+footer .under-footer p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+footer .under-footer a {
+  color: #cff;
+}
+
+footer .under-footer a:hover {
+  color: #c66;
+}
+
+
+/* 
+---------------------------------------------
+Products Page
+--------------------------------------------- 
+*/
+
+#product{
+    padding-top:150px;
+}
+
+#product .right-content {
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+}
+
+#product .right-content h4 {
+  font-size: 22px;
+  color: #2a2a2a;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+#product .right-content span.price {
+  font-size: 18px;
+  color: #a1a1a1;
+  font-weight: 500;
+  display: block;
+  margin-top: 5px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+#product .right-content ul.stars {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#product .right-content ul.stars li {
+  display: inline;
+  font-size: 13px;
+}
+
+#product .right-content span {
+  font-size: 14px;
+  color: #aaaaaa;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#product .right-content .quote {
+  margin-top: 25px;
+}
+
+#product .right-content .quote i {
+  float: left;
+  font-size: 32px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+#product .right-content .quote p {
+  font-style: italic;
+  color: #2a2a2a;
+  font-weight: 500;
+}
+
+#product .right-content p {
+  font-size: 14px;
+  color: #aaaaaa;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+.quantity-content {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.quantity-content .left-content {
+  float: left;
+  margin-right: 30px;
+}
+
+.quantity-content .right-content {
+  text-align: right;
+}
+
+.quantity-content .left-content h6 {
+  padding-top: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #aaa;
+  position: relative;
+  z-index: 11;
+}
+
+.total h4 {
+  float: left;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #aaa!important;
+}
+
+.total .main-border-button {
+  text-align: right;
+}
+
+.total .main-border-button a {
+  border-color: #2a2a2a;
+  color: #2a2a2a;
+}
+
+.total .main-border-button a:hover {
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+.quantity {
+  display: inline-block; }
+ 
+ .quantity .input-text.qty {
+  width: 35px;
+  height: 39px;
+  padding: 0 5px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #efefef;
+ }
+ 
+ .quantity.buttons_added {
+  text-align: left;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: top; }
+ 
+ .quantity.buttons_added input {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  box-shadow: none;
+ }
+ 
+ .quantity.buttons_added .minus,
+ .quantity.buttons_added .plus {
+  padding: 7px 10px 8px;
+  height: 39px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  cursor:pointer;}
+ 
+ .quantity.buttons_added .minus {
+  border-right: 0; }
+ 
+ .quantity.buttons_added .plus {
+  border-left: 0; }
+ 
+ .quantity.buttons_added .minus:hover,
+ .quantity.buttons_added .plus:hover {
+  background: #eeeeee; }
+ 
+ .quantity input::-webkit-outer-spin-button,
+ .quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0; }
+  
+  .quantity.buttons_added .minus:focus,
+ .quantity.buttons_added .plus:focus {
+  outline: none; }
+
+
+
+/* 
+
+
+/* 
+---------------------------------------------
+responsive
+--------------------------------------------- 
+*/
+
+@media (max-width: 1200px) {
+  .main-banner .right-content .right-first-image .thumb .hover-content p {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-banner .right-content .right-first-image .thumb .hover-content p {
+    display: block;
+  }
+  .header-area .main-nav .nav li.submenu:after {
+    right: 3px;
+  }
+  .header-area .main-nav .nav li.submenu {
+    padding-right: 15px;
+  }
+  .header-area .main-nav .nav li {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .header-area .main-nav .nav li a {
+    font-size: 14px;
+    letter-spacing: 0px;
+  }
+  .main-banner .left-content {
+    margin-bottom: 30px;
+  }
+  #explore .left-content {
+    margin-bottom: 30px;
+  }
+  #explore .right-content .types {
+    margin-top: 30px;
+  }
+  .subscribe input {
+    margin-bottom: 15px;
+  }
+  .subscribe form {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .about-us .right-content {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .our-team .team-item {
+    margin-bottom: 30px;
+  }
+  .our-services .service-item {
+    margin-bottom: 30px;
+  }
+  .contact-us #map {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-banner .left-content .thumb .inner-content {
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .subscribe form button {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h4 {
+    margin-top: 30px;
+  }
+}
+
+
+
